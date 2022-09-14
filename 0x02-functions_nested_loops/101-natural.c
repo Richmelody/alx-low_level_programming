@@ -5,7 +5,7 @@
 *Return: return 0
 */
 
-:setint main(void)
+int main(void)
 {
 	int n, sum = 0;
 
