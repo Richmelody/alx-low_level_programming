@@ -1,13 +1,15 @@
 #include <stdio.h>
 
-/* A program that prints the name of an argument passed to it
- * print a number followed by a new line
- * argc, 
- * argv, 
- */
-int main(argc, char *argv[] __attribute__((__unused__)) )
-{	
-	printf("%d\n", argc);
+/**
+* main - Prints the number of arguments passed to it.
+* @argc: The number of arguments supplied to the program.
+* @argv: An array of pointers to the arguments.
+*
+* Return: Always 0.
+*/
+int main(int argc, char __attribute__((__unused__)) *argv[])
+{
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
